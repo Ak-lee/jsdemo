@@ -5,7 +5,7 @@ process.chdir("/home/ak-lee/桌面") 	//ubuntu 中文系统下
 var path = "./" + dirName
 if(fs.existsSync(path))
 {
-  console.log('File already exit！')
+  console.log('File already exist！')
   process.exit(1)  
 }
 else
